@@ -9,6 +9,7 @@ public class SgInstantiate : MonoBehaviour {
     private Transform tran;
     private Vector2 v2 = Vector2.zero;
     private static int count = 0;
+	public GameObject obj;
 	// Use this for initialization
 	void Awake () {
         obj_bottom = new List<string>();
